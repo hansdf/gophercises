@@ -36,6 +36,14 @@ func main() {
 
 	for i, questions := range questions {
 		fmt.Printf("Question %v: %v\n", i, questions.Question)
+		fmt.Print("Enter the answer: ")
+		var reply string
+		fmt.Scanln(&reply)
+		if reply == questions.Answer {
+			fmt.Println("You got it!")
+		} else {
+			fmt.Println("Wrong answer :(")
+		}
 	}
 	//fmt.Println(questions)
 
