@@ -34,18 +34,23 @@ func main() {
 		questions[i] = question
 	}
 
-	for i, questions := range questions {
-		fmt.Printf("Question %v: %v\n", i, questions.Question)
+	counter := 0
+
+	for i, q := range questions {
+		fmt.Printf("Question %v: %v\n", i, q.Question)
 		fmt.Print("Enter the answer: ")
 		var reply string
 		fmt.Scanln(&reply)
-		if reply == questions.Answer {
+
+		if reply == q.Answer {
 			fmt.Println("You got it!")
+			counter++
 		} else {
 			fmt.Println("Wrong answer :(")
 		}
 	}
-	//fmt.Println(questions)
+
+	fmt.Printf("You have got %v questions right, from the total of %v.", counter, (len(questions)))
 
 }
 
