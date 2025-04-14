@@ -1,0 +1,171 @@
+{
+    "intro": {
+      "title": "The Enchanted Grove",
+      "story": [
+        "On the edge of a quiet village lies a mysterious forest known as the Enchanted Grove. Legends say the trees whisper secrets and the wind carries spells.",
+        "You are a young wanderer with a curious heart and a knack for stumbling into strange places. Today, you feel a tug in your chest—something is calling you into the woods.",
+        "At the edge of the grove, three paths unfold before you: one lined with glowing mushrooms, one wrapped in golden mist, and one paved with ancient stones."
+      ],
+      "options": [
+        {
+          "text": "Follow the path of glowing mushrooms.",
+          "arc": "mushroom-path"
+        },
+        {
+          "text": "Step into the golden mist.",
+          "arc": "mist-path"
+        },
+        {
+          "text": "Walk along the ancient stone trail.",
+          "arc": "stone-path"
+        }
+      ]
+    },
+    "mushroom-path": {
+      "title": "The Glowing Trail",
+      "story": [
+        "You tread carefully along the trail, the mushrooms pulsing softly beneath your feet. The light grows brighter the deeper you go.",
+        "Eventually, you reach a clearing where a tiny mushroom village comes to life. Tiny fairies ride beetles and offer you a glowing vial.",
+        "They say it's a gift for respecting the forest. But you also see a strange door carved into a tree nearby—it hums with magic."
+      ],
+      "options": [
+        {
+          "text": "Accept the glowing vial and leave the grove peacefully.",
+          "arc": "peaceful-exit"
+        },
+        {
+          "text": "Ignore the vial and open the magical tree door.",
+          "arc": "tree-door"
+        }
+      ]
+    },
+    "mist-path": {
+      "title": "The Golden Fog",
+      "story": [
+        "The golden mist surrounds you quickly, and suddenly you can no longer see the path behind you.",
+        "Shapes appear in the fog—are they creatures? Memories? Fears? You hear a voice whisper: 'Face the mirror to find your truth.'",
+        "A shimmering mirror appears before you, next to a quiet bench covered in moss."
+      ],
+      "options": [
+        {
+          "text": "Sit on the bench and wait for the mist to clear.",
+          "arc": "bench-ending"
+        },
+        {
+          "text": "Look into the mirror.",
+          "arc": "mirror-vision"
+        }
+      ]
+    },
+    "stone-path": {
+      "title": "The Ancient Road",
+      "story": [
+        "You follow the cobblestone path, feeling the history beneath your feet. Runes glow faintly as you step forward.",
+        "A stone golem blocks your path. It holds two scrolls—one red and one blue—and speaks with a gravelly voice: 'Choose your trial: Fire or Wisdom.'",
+        "Behind the golem are two doors marked with flames and stars."
+      ],
+      "options": [
+        {
+          "text": "Choose the Trial of Fire (red scroll).",
+          "arc": "trial-fire"
+        },
+        {
+          "text": "Choose the Trial of Wisdom (blue scroll).",
+          "arc": "trial-wisdom"
+        }
+      ]
+    },
+    "peaceful-exit": {
+      "title": "Gift of the Fairies",
+      "story": [
+        "You thank the tiny fairies and take the glowing vial. A warm feeling washes over you as they escort you back to the edge of the grove.",
+        "When you return home, you realize the vial grants you dreams of faraway places every night. The forest still whispers to you sometimes, but you are content—for now."
+      ],
+      "options": []
+    },
+    "tree-door": {
+      "title": "The Hollow Tree",
+      "story": [
+        "You push open the door and find a spiral staircase leading downward into the heart of the forest.",
+        "At the bottom is a sleeping dragon, wrapped in vines and moss. It opens one eye slowly and says: 'Another dreamer enters. What will you offer?'"
+      ],
+      "options": [
+        {
+          "text": "Offer the dragon your voice, promising never to speak of this place.",
+          "arc": "dragon-keeper"
+        },
+        {
+          "text": "Refuse to offer anything and run.",
+          "arc": "forest-lost"
+        }
+      ]
+    },
+    "mirror-vision": {
+      "title": "Reflections",
+      "story": [
+        "As you gaze into the mirror, you see not yourself, but a version of you surrounded by magic and mystery, walking the forest forever.",
+        "The mist pulls you in, and you feel your body change. You are now a part of the grove—its newest guardian spirit."
+      ],
+      "options": []
+    },
+    "bench-ending": {
+      "title": "The Wait",
+      "story": [
+        "You sit quietly. Time passes—minutes or hours, you're not sure.",
+        "Eventually, the mist parts, and you're back at the edge of the forest. The path has vanished.",
+        "Though your memories are hazy, you know you were changed somehow. The village never feels quite the same again."
+      ],
+      "options": []
+    },
+    "trial-fire": {
+      "title": "Trial of Fire",
+      "story": [
+        "The door creaks open and you step into a chamber of flame. You must cross a bridge of burning coals while answering riddles from flaming spirits.",
+        "You grit your teeth and succeed, barely singed. The golem bows to you as you exit. A flame mark now glows on your palm."
+      ],
+      "options": [
+        {
+          "text": "Return to the village with your new strength.",
+          "arc": "hero-return"
+        }
+      ]
+    },
+    "trial-wisdom": {
+      "title": "Trial of Wisdom",
+      "story": [
+        "The door opens to a quiet library hidden under the earth. A floating book asks questions about your past, your fears, your dreams.",
+        "With each answer, the room grows brighter. At the end, you are gifted a tome bound in silver leaves and told, 'Come back when the forest calls again.'"
+      ],
+      "options": [
+        {
+          "text": "Return home to study the tome.",
+          "arc": "hero-return"
+        }
+      ]
+    },
+    "dragon-keeper": {
+      "title": "The Dragon’s Secret",
+      "story": [
+        "You give up your voice and the dragon accepts. It curls around you protectively, and you fall asleep in warmth.",
+        "When you awaken, you are its keeper—guardian of the secrets beneath the Enchanted Grove. Your old life fades, but you are now part of something greater."
+      ],
+      "options": []
+    },
+    "forest-lost": {
+      "title": "Lost in the Forest",
+      "story": [
+        "You run, but the forest shifts around you. Paths twist, roots grab at your feet, and whispers follow your every move.",
+        "You are never seen again in the village. Some say you became part of the forest. Others say the grove took what it was owed."
+      ],
+      "options": []
+    },
+    "hero-return": {
+      "title": "The Return",
+      "story": [
+        "You return to the village stronger, wiser, and full of strange tales. Few believe you, but the mark on your hand (or the glowing book you carry) is proof something changed.",
+        "And when the moon is full, you sometimes walk back to the grove, wondering what other secrets lie hidden there."
+      ],
+      "options": []
+    }
+  }
+  
